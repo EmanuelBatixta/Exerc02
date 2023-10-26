@@ -1,0 +1,83 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(68, 3, 3);
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+}
+
+footer{
+    background: rgb(68, 3, 3);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+header, footer {
+    align-items: center;
+  
+    height: 6em;
+}
+
+main{
+    height: auto;
+    background: rgb(255, 255, 255);
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    color: rgb(68, 3, 3);
+}
+
+nav{
+    background: rgb(68, 3, 3);
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+nav :hover{
+    background: rgb(255, 255, 255);
+    color: rgb(68, 3, 3);
+}
+
+nav > a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    padding: 5px;
+}
+
+main p, ul, ol, h3{
+    margin: 15px 0px;
+    font-size: 1em;
+    line-height: 2em;
+    text-indent: 20px;
+    list-style-position: inside;
+    
+}
+.parallax {
+    /* The image used */
+    background-image: url("strogonoff.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+    align-content: center;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caixa{
+    height: 70px;
+    width: 70px;
+    background: pink;
+    display: inline;
+    position: absolute;
+}
