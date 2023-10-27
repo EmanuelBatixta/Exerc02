@@ -8,21 +8,18 @@ header{
     background-color: rgb(68, 3, 3);
     color: white;
     text-align: center;
-    padding-top: 3em;
+    padding: 2em;
 }
 
 footer{
     background: rgb(68, 3, 3);
     color: white;
     display: flex;
-    justify-content: center;
+    gap:20px;
+    padding: 20px;
+    justify-content: space-around;
 }
 
-header, footer {
-    align-items: center;
-  
-    height: 6em;
-}
 
 main{
     height: auto;
@@ -81,3 +78,15 @@ main p, ul, ol, h3{
     display: inline;
     position: absolute;
 }
+
+div> ul> li, li > a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.footer-title {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-size: 1.3em;
+}
+
